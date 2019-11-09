@@ -36,3 +36,11 @@ function comparable(x, y){
         }
     }
 }
+// // sort letters perspectively
+//    letters.sort((a,b) => {
+//        let strA = a.substr(a.indexOf(' ') + 1);
+//        let strB = b.substr(b.indexOf(' ') + 1);
+//
+//        if(strA === strB) return a.localeCompare(b);
+//        return strA.localeCompare(strB);
+//    });
